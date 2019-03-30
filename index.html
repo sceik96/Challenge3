@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/mainSmall.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="css/extraLarge.css">
+    <title></title>
+  </head>
+  <body>
+    <header class="header">
+      <h1>SpaceX</h1>
+    </header>
+
+    <section class="main">
+
+    <div class="beer">
+        <h1>Your unique beer!</h1>
+        <div class="gegevenscontainer">
+          <div class="name">It's called </div>
+          <div class="tagline"></div>
+          <div class="abv">ABV(%): </div>
+        </div>
+        <button type="button" name="button" onclick="showImage();" id="beerbutton">Click here for an image!</button>
+          <div class="toggle">
+            <img id="beerimage" src="" alt="Your unique beer">
+          </div>
+    </div>
+
+    <div class="taco">
+      <h1>Your unique taco!</h1>
+      <div class="shell">A shell made out of </div>
+      <div class="base">First layer: </div>
+      <div class="condiment">Second layer: </div>
+      <div class="mixin">Third layer: </div>
+      <div class="seasoning">Seasoned with </div>
+    </div>
+
+    <div class="welcome">
+      <h1>Welcome home!</h1>
+    </div>
+
+  </section>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="js/tacoAPI.js"></script>
+    <script src="js/beersAPI.js"></script>
+
+    </script>
+
+  </body>
+</html>

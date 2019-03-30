@@ -1,0 +1,68 @@
+@media only screen and (min-width: 1350px) {
+
+  h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  .main {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .beer {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-column: 1;
+    width: 40%;
+    margin: 5%;
+    height: 300px;
+  }
+
+  .taco {
+    width: 40%;
+    margin: 5%;
+    height: 300px;
+
+  }
+
+  .image {
+    grid-column: 1;
+    grid-row: 3;
+    margin: 10px;
+  }
+
+  .gegevenscontainer {
+    grid-row: 2;
+  }
+
+  .toggle {
+    grid-column: 2;
+    grid-row: 1 / span 3;
+  }
+
+  #beerbutton {
+    grid-column: 1;
+    grid-row: 3;
+    padding: 10px;
+    width: 100%;
+  }
+
+  #beerimage {
+    height: 200px;
+    width: auto;
+    margin: 10px auto;
+    align-self: center;
+  }
+
+
+  .welcome {
+    width: 100%;
+    margin: 5%;
+  }
+
+}

@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Lekton');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body{
+	font-family: Lekton;
+  height: 100%;
+  background-image: url("../img/patternDay.png");
+}
+
+header {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 20px;
+}
+
+header h1 {
+  margin: auto;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.beer, .taco, .welcome {
+  margin: 30px 0;
+  padding: 20px;
+  background-color: #CCCCCC;
+  border-radius: 20px;
+  opacity: 0.8;
+  width: 80%
+}
+
+.tagline {
+  font-style: italic;
+}
+
+#beerbutton {
+  padding: 15px;
+  width: 90%;
+  display: block;
+  margin: 20px auto;
+  background-color: #AAAAAA;
+  border-radius: 100px;
+  border: none;
+  font-family: Lekton;
+  font-weight: bold;
+  opacity: 1;
+
+}
+
+.toggle {
+  display: none;
+}
+
+#beerimage {
+  width: 40%;
+  margin: 10px auto;
+  align-self: center;
+  display: block;
+}
+
+.welcome {
+  text-align: center;
+  font-size: 25px;
+  margin: 30px auto;
+}
